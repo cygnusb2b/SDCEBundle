@@ -1,21 +1,20 @@
 {
-    "name": "cygnus/sites-sdcebundle",
-    "type": "symfony-bundle",
-    "license": "MIT",
-    "authors": [
-        {"name": "Josh Worden", "email": "josh.worden@cygnus.com"}
-    ],
+    "name": "cygnus/sites-sdce-bundle",
+    "description": "SDCE Site Bundle for Symfony2",
     "require": {
-        "php": ">=5.3.2",
-        "symfony/options-resolver": "~2.1",
         "symfony/framework-bundle": "~2.1"
     },
     "require-dev": {
-        "symfony/form": "~2.1",
         "symfony/yaml": "~2.1"
     },
-    "suggest": {
-    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Worden",
+            "email": "josh.worden@cygnus.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
             "Cygnus\\Sites\\SDCEBundle": ""
